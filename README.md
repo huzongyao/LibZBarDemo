@@ -11,7 +11,7 @@ Demonstrate ZBar QR Code Library Port To Android
 * Other QRCode libraries, see zxing: https://github.com/zxing/zxing
 
 ### Screenshot
-![image](https://raw.githubusercontent.com/hzy3774/LibZBarDemo/master/misc/screen.gif)
+![image](https://raw.githubusercontent.com/huzongyao/LibZBarDemo/master/misc/screen.gif)
 
 ### About Me
  * GitHub: [http://huzongyao.github.io/](http://huzongyao.github.io/)
