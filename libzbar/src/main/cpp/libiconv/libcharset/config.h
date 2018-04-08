@@ -1,7 +1,7 @@
 /* config.h.  Generated from config.h.in by configure.  */
 /* config.h.in.  Generated from configure.ac by autoheader.  */
 
-/* Define to 1 if the package shall run at any location in the filesystem. */
+/* Define to 1 if the package shall run at any location in the file system. */
 /* #undef ENABLE_RELOCATABLE */
 
 /* Define to 1 if you have the <dlfcn.h> header file. */
@@ -31,6 +31,9 @@
 /* Define to 1 if you have the <string.h> header file. */
 #define HAVE_STRING_H 1
 
+/* Define to 1 if you have the `symlink' function. */
+#define HAVE_SYMLINK 1
+
 /* Define to 1 if you have the <sys/stat.h> header file. */
 #define HAVE_SYS_STAT_H 1
 
@@ -45,7 +48,7 @@
 #define HAVE_VISIBILITY 1
 
 /* Define to 1 if O_NOATIME works. */
-#define HAVE_WORKING_O_NOATIME 0
+#define HAVE_WORKING_O_NOATIME 1
 
 /* Define to 1 if O_NOFOLLOW works. */
 #define HAVE_WORKING_O_NOFOLLOW 1
@@ -53,27 +56,26 @@
 /* Define to the value of ${prefix}, as a string. */
 #define INSTALLPREFIX "/usr/local"
 
-/* Define to the sub-directory in which libtool stores uninstalled libraries.
-   */
+/* Define to the sub-directory where libtool stores uninstalled libraries. */
 #define LT_OBJDIR ".libs/"
 
 /* Define to the address where bug reports for this package should be sent. */
 #define PACKAGE_BUGREPORT ""
 
 /* Define to the full name of this package. */
-#define PACKAGE_NAME ""
+#define PACKAGE_NAME "libcharset"
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING ""
+#define PACKAGE_STRING "libcharset 1.4"
 
 /* Define to the one symbol short name of this package. */
-#define PACKAGE_TARNAME ""
+#define PACKAGE_TARNAME "libcharset"
 
 /* Define to the home page for this package. */
 #define PACKAGE_URL ""
 
 /* Define to the version of this package. */
-#define PACKAGE_VERSION ""
+#define PACKAGE_VERSION "1.4"
 
 /* Define to 1 if you have the ANSI C header files. */
 #define STDC_HEADERS 1
